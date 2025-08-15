@@ -8,13 +8,15 @@ This study proposes and compares multiple efficient 3D convolutional designs for
 The tested variants include:
 
 - Standard 3D convolution  
-- Depthwise convolution  
-- Grouped convolution  
+- Depthwise 3D convolution  
+- Grouped 3D convolution
+- Ghost 3D convolution
+- Shift 3D convolution
 - R(2+1)D convolution  
 - Hybrid convolution (mixed standard 2D+3D)  
-- Ghost convolution  
 
-All models share a unified 3D U-Net-based architecture and are trained, validated, and evaluated on five years (2016–2020) of UK radar data at 5-minute intervals and 1 km resolution (grid size: 512 × 512).
+
+All models share a unified 3D Residual U-Net-based architecture and are trained, validated, and evaluated on five years (2016–2020) of UK radar data at 5-minute intervals and 1 km resolution (grid size: 512 × 512).
 
 The models use a consistent **4-frame input / 12-frame output** configuration in a sequence-to-sequence prediction setting, enabling direct comparison of computational complexity, runtime, and predictive skill.
 
@@ -54,7 +56,7 @@ conda env create -f environment.yml
 conda activate efficientnowcast-env
 
 3. Download pretrained model checkpoints
-Zenodo link
+[Zenodo link](https://zenodo.org/records/16883989)
 
 🚀 Usage
 Run evaluation on all model variants:
