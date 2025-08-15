@@ -28,17 +28,17 @@ The models use a consistent **4-frame input / 12-frame output** configuration in
 
 # 📁 Project Structure
 
-├── run_predictions.py # Main evaluation script
-├── utils.py # Data loading, preprocessing, plotting, inference
-├── metrics.py # MAE, RMSE, CSI metric functions
-├── sequence_builder.py # Build rainfall sequences
-├── models/ # 3D U-Net and efficient convolutional variants
-├── checkpoints/ # Pretrained weights for each model variant
-├── sample_data/ # Sample radar sequences for testing
-├── requirements.txt # pip environment
-├── environment.yml # conda environment
-└── README.md # Project documentation
-
+📦 **Efficient3DNowcasting**  
+├── `run_predictions.py` — Main evaluation script  
+├── `utils.py` — Data loading, preprocessing, plotting, inference  
+├── `metrics.py` — MAE, RMSE, CSI metric functions  
+├── `sequence_builder.py` — Build rainfall sequences  
+├── `models/` — 3D U-Net and efficient convolutional variants  
+├── `checkpoints/` — Pretrained weights for each model variant  
+├── `sample_data/` — Sample radar sequences for testing  
+├── `requirements.txt` — pip environment  
+├── `environment.yml` — conda environment  
+└── `README.md` — Project documentation
 
 # 💻 Setup & Requirements
 
