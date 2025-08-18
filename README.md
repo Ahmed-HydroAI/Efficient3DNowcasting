@@ -9,7 +9,7 @@ The tested variants include:
 
 - Standard 3D convolution  
 - Depthwise 3D convolution  
-- Grouped 3D convolution
+- Group 3D convolution
 - Ghost 3D convolution
 - Shift 3D convolution
 - R(2+1)D convolution  
