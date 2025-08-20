@@ -72,7 +72,8 @@ The script generates:
 ✅ Runtime and FLOP analysis (if ptflops is installed)
 
 📄 License
-This project is open-source under the MIT License. See LICENSE for details.
+This project is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0).
+See the LICENSE file for details.
 
 📬 Contact
 For questions or collaborations, contact:
