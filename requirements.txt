@@ -1,0 +1,8 @@
+torch>=1.12
+numpy>=1.21
+matplotlib>=3.4
+imageio>=2.19
+cartopy>=0.20
+tqdm>=4.62
+tabulate>=0.8
+ptflops>=0.6
