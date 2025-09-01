@@ -47,7 +47,7 @@ The models use a consistent 4-frame input / 12-frame output configuration in a s
 git clone https://github.com/Ahmed-HydroAI/Efficient3DNowcasting.git
 cd Efficient3DNowcasting
 
-2) Install required packages
+**2) Install required packages**
 
 Using pip:
 
@@ -57,20 +57,19 @@ Using conda (recommended for reproducibility):
 conda env create -f environment.yml
 conda activate efficientnowcast-env
 
-3) Download pretrained model checkpoints 
+**3) Download pretrained model checkpoints**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16883989.svg)](https://doi.org/10.5281/zenodo.16883989)
 
+## 🚀 Usage
 
-🚀 Usage
 Run evaluation on all model variants:
 
 bash
-Copy code
 python run_predictions.py
 This will run inference on the provided sample radar sequences and save outputs in the outputs/ directory.
 
-📊 Outputs and Visualization
+## 📊 Outputs and Visualization
 The script generates:
 
 ✅ Side-by-side plots of predicted vs observed rainfall
@@ -81,11 +80,12 @@ The script generates:
 
 ✅ Runtime and FLOP analysis (if ptflops is installed)
 
-📄 License
+## 📄 License
+
 This project is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0).
 See the LICENSE file for details.
 
-📬 Contact
+## 📬 Contact
 For questions or collaborations, contact:
 
 Ahmed Abdelhalim
