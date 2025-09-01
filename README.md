@@ -55,10 +55,9 @@ Using conda (recommended for reproducibility):
 conda env create -f environment.yml
 conda activate efficientnowcast-env
 
-3. Download pretrained model checkpoints
+3. Download pretrained model checkpoints  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16883989.svg)](https://doi.org/10.5281/zenodo.16883989)
-
 
 🚀 Usage
 Run evaluation on all model variants:
