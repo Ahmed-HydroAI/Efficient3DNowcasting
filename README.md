@@ -21,11 +21,9 @@ The models use a consistent 4-frame input / 12-frame output configuration in a s
 
 ![Model Architecture](assets/architecture.png)
 
----
 
 📄 See below for instructions on running the models. For further details, please refer to the paper or contact the author.
 
----
 
 ## 📁 Project Structure
 
@@ -41,12 +39,11 @@ The models use a consistent 4-frame input / 12-frame output configuration in a s
 - `environment.yml` — conda environment  
 - `README.md` — Project documentation
 
----
 
 ## 💻 Setup & Requirements
 
 **1) Clone the repository**
-```bash
+
 git clone https://github.com/Ahmed-HydroAI/Efficient3DNowcasting.git
 cd Efficient3DNowcasting
 
