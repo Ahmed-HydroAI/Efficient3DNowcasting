@@ -56,7 +56,10 @@ conda env create -f environment.yml
 conda activate efficientnowcast-env
 
 3. Download pretrained model checkpoints
-[Zenodo link](https://zenodo.org/records/16883989)
+
+Pretrained weights for the models used in this study are available on Zenodo:
+
+- [DOI: 10.5281/zenodo.16883989](https://doi.org/10.5281/zenodo.16883989)
 
 🚀 Usage
 Run evaluation on all model variants:
