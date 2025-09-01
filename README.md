@@ -57,6 +57,7 @@ pip install -r requirements.txt
 Using conda (recommended for reproducibility):
 
 conda env create -f environment.yml
+
 conda activate efficientnowcast-env
 
 **3) Download pretrained model checkpoints**
@@ -93,9 +94,11 @@ See the LICENSE file for details.
 For questions or collaborations, contact:
 
 Ahmed Abdelhalim
+
 University of Bristol
 
 ✉️ ahmed.abdelhalim@bristol.ac.uk
+
 ✉️ ahmed_abdelhalim@mu.edu.eg
 
 🔗 https://github.com/Ahmed-HydroAI
