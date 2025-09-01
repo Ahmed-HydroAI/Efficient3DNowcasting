@@ -45,6 +45,7 @@ The models use a consistent 4-frame input / 12-frame output configuration in a s
 **1) Clone the repository**
 
 git clone https://github.com/Ahmed-HydroAI/Efficient3DNowcasting.git
+
 cd Efficient3DNowcasting
 
 **2) Install required packages**
@@ -52,6 +53,7 @@ cd Efficient3DNowcasting
 Using pip:
 
 pip install -r requirements.txt
+
 Using conda (recommended for reproducibility):
 
 conda env create -f environment.yml
@@ -66,7 +68,9 @@ conda activate efficientnowcast-env
 Run evaluation on all model variants:
 
 bash
+
 python run_predictions.py
+
 This will run inference on the provided sample radar sequences and save outputs in the outputs/ directory.
 
 ## 📊 Outputs and Visualization
