@@ -22,8 +22,6 @@ The models use a consistent **4-frame input / 12-frame output** configuration in
 
 ![Model Architecture](assets/architecture.png)
 
----
-
 📄 See below for instructions on running the models. For further details, please refer to the paper or contact the author.
 
 # 📁 Project Structure
